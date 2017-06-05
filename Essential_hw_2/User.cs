@@ -30,13 +30,86 @@ namespace Essential_hw_2
             this.age = age;
             this.date = DateTime.Now;
         }
-        /*
-        public string UserInfo()
+        
+        public string Login
         {
-            string result = string.Format("User info:\nlogin:{0}\nname:{1}\nsurname:{2}\nage:{3}\ndate:{4}", login, name, surname, this.age, this.date);
-            return result;
+            get
+            {
+                return login;
+            }
+
+            set
+            {
+                if (value != null)
+                {
+                    login = value;
+                } else
+                {
+                    Console.WriteLine("Login can not be empty !!!");
+                }
+            }
         }
-        */
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                if (value != null)
+                {
+                    name = value;
+                }
+                else
+                {
+                    Console.WriteLine("Name can not be empty !!!");
+                }
+            }
+        }
+
+        public string Surname
+        {
+            get
+            {
+                return surname;
+            }
+
+            set
+            {
+                if (value != null)
+                {
+                    surname = value;
+                }
+                else
+                {
+                    Console.WriteLine("Surname can not be empty !!!");
+                }
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return age;
+            }
+
+            set
+            {
+                if (value <= 0)
+                {
+                    age = value;
+                }
+                else
+                {
+                    Console.WriteLine("Age can not be empty !!!");
+                }
+            }
+        }
+
         public void ShowUserInfo()
         {
             Console.WriteLine("User info:\nlogin:{0}\n name:{1}\n surname:{2}\n age:{3}\n date:{4}", this.login, this.name, this.surname, this.age, this.date.ToString());

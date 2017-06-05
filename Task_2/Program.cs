@@ -22,6 +22,12 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
+            Converter converter05062017 = new Converter( 26.27, 29.47, 0.46);
+
+            converter05062017.ToRub(22000);
+            converter05062017.ToUsd(22000);
+            converter05062017.ToEur(22000);
+            Console.ReadKey();
         }
     }
 }

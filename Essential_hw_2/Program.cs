@@ -24,8 +24,7 @@ namespace Essential_hw_2
             emptyUser.ShowUserInfo();
 
             User currentUserInfo = new User("admin", "Ivan", "Stepanov", 25);
-            //string result = user.UserInfo;
-            //Console.WriteLine(currentUserInfo.UserInfo);
+
             currentUserInfo.ShowUserInfo();
             Console.ReadKey();
         }
