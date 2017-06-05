@@ -20,7 +20,10 @@ namespace Essential_hw_2
     {
         static void Main(string[] args)
         {
-            User currentUserInfo = new User("admin", "Ivan", "Stepanov", 25, "12/12/1999");
+            User emptyUser = new User();
+            emptyUser.ShowUserInfo();
+
+            User currentUserInfo = new User("admin", "Ivan", "Stepanov", 25);
             //string result = user.UserInfo;
             //Console.WriteLine(currentUserInfo.UserInfo);
             currentUserInfo.ShowUserInfo();

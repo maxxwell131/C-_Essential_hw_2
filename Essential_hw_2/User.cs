@@ -12,19 +12,23 @@ namespace Essential_hw_2
         string name;
         string surname;
         int age;
-        readonly string date;
+        readonly DateTime date;
+
+        public User()
+        {
+            this.date = DateTime.Now;
+        }
 
         public User(string login,
                     string name,
                     string surname,
-                    int age,
-                    string date)
+                    int age)
         {
             this.login = login;
             this.name = name;
             this.surname = surname;
             this.age = age;
-            this.date = date;
+            this.date = DateTime.Now;
         }
         /*
         public string UserInfo()
@@ -35,7 +39,7 @@ namespace Essential_hw_2
         */
         public void ShowUserInfo()
         {
-            Console.WriteLine("User info:\nlogin:{0}\n name:{1}\n surname:{2}\n age:{3}\n date:{4}", this.login, this.name, this.surname, this.age, this.date);
+            Console.WriteLine("User info:\nlogin:{0}\n name:{1}\n surname:{2}\n age:{3}\n date:{4}", this.login, this.name, this.surname, this.age, this.date.ToString());
         }
     }
 }
