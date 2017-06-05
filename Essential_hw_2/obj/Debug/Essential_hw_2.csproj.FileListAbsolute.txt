@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\obj\Debug\Essential_hw_2.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\bin\Debug\Essential_hw_2.exe.config
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\bin\Debug\Essential_hw_2.exe
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\bin\Debug\Essential_hw_2.pdb
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\obj\Debug\Essential_hw_2.exe
+c:\users\user\documents\visual studio 2017\Projects\Essential_hw_2\Essential_hw_2\obj\Debug\Essential_hw_2.pdb
