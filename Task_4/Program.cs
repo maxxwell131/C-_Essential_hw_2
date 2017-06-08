@@ -23,6 +23,15 @@ namespace Task_4
     {
         static void Main(string[] args)
         {
+            Invoice inv = new Invoice(678904, "Alex", "Foxtrot") { Article = "USB-hab", Quantity = 6 };
+
+            inv.CostCalculation(true);
+            inv.CostCalculation(false);
+
+            Console.WriteLine(new string('-',15));
+            inv.ShowInvoiceInfo();
+
+            Console.ReadKey();
         }
     }
 }
